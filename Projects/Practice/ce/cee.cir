@@ -1,0 +1,37 @@
+.title KiCad schematic
+.model __D1 D
+.model 1N4007 D()
+.tran 1us 40ms
+
+.control
+* First run
+alter rs1 = 0.3
+tran 1us 40ms
+setplot tran1
+let i1 = i(vo1)
+
+* Second run
+alter rs1 = 0.6
+tran 1us 40ms
+setplot tran2
+let i2 = i(vo1)
+
+* Third run
+alter rs1 = 1.0
+tran 1us 40ms
+setplot tran3
+let i3 = i(vo1)
+
+* Now plot all together
+set color0 = white
+set color1 = black
+plot i1 vs d i2 vs d i3 vs d
+.endc
+
+.end
+
+D1 A 0 __D1
+vo1 0 D sin(0 0.85 50 0 0 0)
+Ii1 A 0 PWL(0 1 50n 1 51n 1 97n 1 171n 1 200n 1)
+Rsh1 A 0 1Meg
+Rs1 A D 0.1
