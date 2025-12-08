@@ -64,9 +64,7 @@ Vout = −(D / (1 − D)) × Vin
 
 ---  
 
-<!--  
-
-📊 Simulations (GNU Octave)
+<!--  📊 Simulations (GNU Octave)
 
 GNU Octave was used to simulate:
 
@@ -89,8 +87,6 @@ Example usage:
 octave buck_converter.m
 
 
----
-
 🧩 PCB & Schematic Design (KiCad)
 
 KiCad was used to:
@@ -107,18 +103,12 @@ KiCad project files are located in:
 /buck_converter/kicad/
 /boost_converter/kicad/
 
-
----
-
 📷 How to Add Simulation & PCB Images
 
 Add result images inside each results/ folder and link them like:
 
 ![Octave Waveform](buck_converter/results/output_waveform.png)
 ![KiCad PCB Layout](buck_converter/results/pcb_layout.png)
-
-
----
 
 🎯 Learning Outcomes
 
@@ -130,10 +120,7 @@ Simulation-based analysis
 
 PCB design using KiCad
 
-Control of switching converters  
-
-
--->
+Control of switching converters  -->
 
 ---
 
