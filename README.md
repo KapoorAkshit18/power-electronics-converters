@@ -31,9 +31,10 @@ Converts higher DC input voltage to a lower DC output voltage.
 Vout = D × Vin
 
 
----
+---  
 
-2. Boost Converter (Step-Up)
+
+### 2. Boost Converter (Step-Up)
 
 Steps up a lower input voltage to a higher output voltage.
 
@@ -42,9 +43,10 @@ Key Formula:
 Vout = Vin / (1 − D)
 
 
----
+---  
 
-3. Buck–Boost Converter
+
+### 3. Buck–Boost Converter
 
 Provides output voltage that can be higher or lower than the input.
 
