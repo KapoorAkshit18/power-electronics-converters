@@ -33,35 +33,35 @@ Converts higher DC input voltage to a lower DC output voltage.
 
 **Key Formula:**
 
-```text
-Vout = D × Vin
+
+`Vout = D × Vin`
 
 
 ---
 
-2. Boost Converter (Step-Up)
+### 2. Boost Converter (Step-Up)
 
 Steps up a lower input voltage to a higher output voltage.
 
 Key Formula:
 
-Vout = Vin / (1 − D)
+`Vout = Vin / (1 − D)`
 
 
 ---
 
-3. Buck–Boost Converter
+### 3. Buck–Boost Converter
 
 Provides output voltage that can be higher or lower than the input.
 
 Key Formula:
 
-Vout = −(D / (1 − D)) × Vin
+`Vout = −(D / (1 − D)) × Vin`
 
 
 ---
 
-4. Push-Pull Converter (Isolated DC–DC)
+### 4. Push-Pull Converter (Isolated DC–DC)
 
 A transformer-isolated converter that uses two switching devices in a push-pull configuration.
 
@@ -76,12 +76,12 @@ Suitable for medium-power SMPS designs
 
 Basic Relation:
 
-Vout ≈ (Ns / Np) × Vin × D
+`Vout ≈ (Ns / Np) × Vin × D`
 
 
 ---
 
-5. Full-Bridge Converter
+### 5. Full-Bridge Converter
 
 A high-power isolated converter using four switches in an H-bridge configuration.
 
@@ -96,12 +96,12 @@ Used in SMPS and industrial systems
 
 Basic Relation:
 
-Vout ≈ (Ns / Np) × Vin × D
+`Vout ≈ (Ns / Np) × Vin × D`
 
 
 ---
 
-🔁 Closed-Loop Operation (Feedback Control)
+### 🔁 Closed-Loop Operation (Feedback Control)
 
 This project also includes closed-loop control techniques to regulate the output automatically.
 
@@ -130,8 +130,8 @@ PI controller implementation in GNU Octave
 
 Conceptual Equation:
 
-Error = Vref − Vout
-Duty Cycle = Controller(Error)
+`Error = Vref − Vout
+Duty Cycle = Controller(Error)`
 
 
 ---
