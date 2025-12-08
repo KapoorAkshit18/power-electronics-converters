@@ -19,16 +19,7 @@ This repository contains the design, simulation, and analysis of various **power
 The goal of this project is to design, simulate, and analyze **DC–DC power converters** commonly used in embedded systems, renewable energy systems, and power management circuits.
 
 ---
-<!--
-## 📂 Repository Structure
 
-power-electronics-converters/ │── README.md │ ├── buck_converter/ │   ├── kicad/ │   ├── octave/ │   └── results/ │ ├── boost_converter/ │   ├── kicad/ │   ├── octave/ │   └── results/ │ ├── buck_boost_converter/ │   ├── kicad/ │   ├── octave/ │   └── results/ │ └── docs/
-
----
-
-## 🔌 Converters Implemented  
-
--->  
 
 ### 1. Buck Converter (Step-Down)
 
@@ -60,67 +51,6 @@ Provides output voltage that can be higher or lower than the input.
 Key Formula:
 
 Vout = −(D / (1 − D)) × Vin
-
-
----  
-
-<!--  📊 Simulations (GNU Octave)
-
-GNU Octave was used to simulate:
-
-Inductor current waveforms
-
-Output voltage ripple
-
-Switching behavior
-
-Duty cycle impact
-
-
-Octave scripts are located in:
-
-/buck_converter/octave/
-/boost_converter/octave/
-
-Example usage:
-
-octave buck_converter.m
-
-
-🧩 PCB & Schematic Design (KiCad)
-
-KiCad was used to:
-
-Design circuit schematics
-
-Create PCB layouts
-
-Generate Gerber files
-
-
-KiCad project files are located in:
-
-/buck_converter/kicad/
-/boost_converter/kicad/
-
-📷 How to Add Simulation & PCB Images
-
-Add result images inside each results/ folder and link them like:
-
-![Octave Waveform](buck_converter/results/output_waveform.png)
-![KiCad PCB Layout](buck_converter/results/pcb_layout.png)
-
-🎯 Learning Outcomes
-
-This project demonstrates skills in:
-
-Power electronics circuit design
-
-Simulation-based analysis
-
-PCB design using KiCad
-
-Control of switching converters  -->
 
 ---
 
