@@ -1,7 +1,3 @@
-Here is a clean, professional Markdown README you can directly use for your Power Electronics Converters project that uses GNU Octave and KiCad.
-
-
----
 
 # Power Electronics Converters  
 *Design & Simulation using GNU Octave and KiCad*
@@ -30,8 +26,10 @@ power-electronics-converters/ │── README.md │ ├── buck_converter/ 
 
 ---
 
-## 🔌 Converters Implemented
--->
+## 🔌 Converters Implemented  
+
+-->  
+
 ### 1. Buck Converter (Step-Down)
 
 Converts higher DC input voltage to a lower DC output voltage.
@@ -64,8 +62,10 @@ Key Formula:
 Vout = −(D / (1 − D)) × Vin
 
 
----
-<!--
+---  
+
+<!--  
+
 📊 Simulations (GNU Octave)
 
 GNU Octave was used to simulate:
@@ -130,7 +130,8 @@ Simulation-based analysis
 
 PCB design using KiCad
 
-Control of switching converters
+Control of switching converters  
+
 
 -->
 
