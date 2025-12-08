@@ -24,7 +24,7 @@ The goal of this project is to design, simulate, and analyze **DC–DC power con
 
 ---
 
-## 🔌 Converters Implemented
+## 🔌 About the Converters
 
 ### 1. Buck Converter (Step-Down)
 
@@ -36,8 +36,6 @@ Converts higher DC input voltage to a lower DC output voltage.
 Vout = D × Vin
 
 
----
-
 2. Boost Converter (Step-Up)
 
 Steps up a lower input voltage to a higher output voltage.
@@ -47,8 +45,6 @@ Key Formula:
 Vout = Vin / (1 − D)
 
 
----
-
 3. Buck–Boost Converter
 
 Provides output voltage that can be higher or lower than the input.
@@ -57,8 +53,6 @@ Key Formula:
 
 Vout = −(D / (1 − D)) × Vin
 
-
----
 
 4. Push-Pull Converter (Isolated DC–DC)
 
@@ -78,8 +72,6 @@ Basic Relation:
 Vout ≈ (Ns / Np) × Vin × D
 
 
----
-
 5. Full-Bridge Converter
 
 A high-power isolated converter using four switches in an H-bridge configuration to drive a transformer.
@@ -97,8 +89,6 @@ Basic Relation:
 
 Vout ≈ (Ns / Np) × Vin × D
 
-
----
 
 🔁 Closed-Loop Operation (Feedback Control)
 
@@ -128,10 +118,10 @@ Conceptual Equation:
 
 Error = Vref − Vout
 Duty Cycle = Controller(Error)  
+  
 
-<details><summary>
-More</summary>  
-
+<details>  
+<summary>More</summary>  
 Projects Implementation and the Results is coming soon.  
 </details>
 ---
